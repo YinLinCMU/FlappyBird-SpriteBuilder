@@ -20,7 +20,7 @@
     //check to see if 2s have passed
     if(timeSinceObstacle > 2.0f){
     //add new obstacle
-        [slef addObstacle];
+        [self addObstacle];
         //then reset the timmer
         timeSinceObstacle = 0.0f;
     }
