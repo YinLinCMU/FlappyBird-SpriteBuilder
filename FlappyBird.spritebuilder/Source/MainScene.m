@@ -166,7 +166,7 @@
                                 2 * bush.contentSize.width, bush.position.y);
         }
     }
-    
+    /*
     //move and loop the clouds
     for (CCNode *cloud in _clouds) {
         // move the cloud
@@ -180,7 +180,7 @@
                                  2 * cloud.contentSize.width, cloud.position.y);
         }
     }
-    
+    */
     
     NSMutableArray *offScreenObstacles = nil;
     
