@@ -18,7 +18,7 @@
     // put update code here
     timeSinceObstacle += delta; //delta = 1/60 of a second
     //check to see if 2s have passed
-    if(timeSinceObstacle > 2.0f){
+    if(timeSinceObstacle > 20.0f){
     //add new obstacle
         [self addObstacle];
         //then reset the timmer
